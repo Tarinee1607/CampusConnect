@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f8fafc;
+}
+
+/* LEFT PANEL */
+
+.left-panel{
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #1e3a8a
+    );
+
+    color:white;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:60px;
+}
+
+.left-panel h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.left-panel p{
+    font-size:1.1rem;
+    line-height:1.8;
+    max-width:500px;
+}
+
+/* LOGIN CARD */
+
+.login-card{
+    width:100%;
+    max-width:450px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+}
+
+.login-card h2{
+    font-weight:700;
+}
+
+.form-control{
+    height:50px;
+    border-radius:10px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#2563eb;
+}
+
+.login-btn{
+    height:50px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.forgot-link,
+.register-link{
+    text-decoration:none;
+    font-weight:500;
+}
+
+.forgot-link:hover,
+.register-link:hover{
+    text-decoration:underline;
+}
+/* REGISTER CARD */
+
+.register-card{
+    width:100%;
+    max-width:700px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+}
+
+.form-select{
+    height:50px;
+    border-radius:10px;
+}
+
+.form-select:focus{
+    box-shadow:none;
+    border-color:#2563eb;
+}
